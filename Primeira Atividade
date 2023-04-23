@@ -4,7 +4,13 @@ if c %3==0
 soma = soma + c
 print ('A SOMA DOS  IMPARES: {}´.FORMAT(SOMA))
 
-#EX02
+
+EX02 
+VALORES = LIST ()
+FOR CONT IN RANGE (0,16):
+VALORES.APPEND(INT(INPUT('DIGITE UM NÚMERO: 
+
+
 
 #EX03
 
@@ -18,21 +24,27 @@ PRINT ('OS NÚMEROS SOLICITADOS SAO: ')
 
 #EX07 
 N = 0
+
  1 <= N <=10
 
 #EX08
 PRI = INT (INPUT ('EXCREVE UM NÚMERO: ))
 RAZ = IN (INPU ('RAZÃO: '))
-DEC = PRI + (10 - 1) * RAZ
+DEC = PRI + (10 - 1) *  RAZ
+FOR C IN RANGE (PRI, DEZ,RAZ):
+PRINT ('{}'.FORMAT(C),END=' - ')
+PRINT('C')
  
 #EX10
 N=INT(INPUT('DIGITE UM NÚMERO: '))
 C = N
-F = 14
+F = 1
 PRINT ('CALCULE {} = '.FORMAT(N), END='')
 WHILE C >0:
 PRINT ('{}'.FORMAT(C), END=' ')
 F*=|C
 C -= 1
 PRINT ('O FATORIAL DE {} É {}.'.FORMAT(N,F)) 
+
+
 
