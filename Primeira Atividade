@@ -5,3 +5,17 @@ soma = soma + c
 print ('A SOMA DOS  IMPARES: {}´.FORMAT(SOMA))
 
 #EX02
+
+#EX03
+
+#EX04
+
+#EX05
+
+#EX06
+FOR C  IN RANGE (100,201,1):
+PRINT ('OS NÚMEROS SOLICITADOS SAO: ')
+
+#EX07
+1 <= 0 N <= 10
+
