@@ -33,14 +33,56 @@ BREAK
 QUANTIDADE =  QUANTIDADE + 1
 SOMA = SOMA + VALORES
 MÉDIA = SOMA / QUANTIDADE
+PRINT (' A MEDIA É : {}. FORMAT (MÉDIA))
 IF VALORES < 0
-ELSE VALORES >
-
+PRINT  ('DIGITE OS VALORES POSITIVOS:  ')
+ELSE VALORES > 0
+PRINT ('DIGITE OS VALORES NEGATIVOS: ')
 
 #EX04
+int1 = int2 = int3 = int4 = 0
+numero = int(input("Digite um número: "))
+while numero >= 0:
+    if numero >= 0 and numero <= 25:
+        int1 += 1
+    else numero >= 26 and numero <= 50:
+        int2 += 1
+    else numero >= 51 and numero <= 75:
+        int3 += 1
+    else numero >= 76 and numero <= 100:
+        int4 += 1
+break numero <= 0
+        numero = int(input("Digite outro número: "))
+print(" Intervalo (0-25): {} números".format (int01))
+print(" Intervalo (26-50): {} números".format (int02)
+print(" Intervalo (51-75): {} números". format (int03)
+print(" Intervalo (76-100): {} números". format (int04)
 
 
 #EX05
+par = 0
+impar = 0
+soma_par = 0
+soma_geral = 0
+while True:
+    numero = int(input("Digite um número: "))
+      if numero == 0:
+        break
+    if numero % 2 == 0:
+        par += 1
+        soma_par += numero
+    else:
+        impar += 1
+    soma_geral += numero
+if par > 0:
+    media_par = soma_par / par
+    print("Quantidade de pares:", par)
+    print("Média dos valores pares:", media_par)
+else:
+    print("Não foi digitado nenhum número par.")
+media_geral = soma_geral / (par + impar)
+print("Quantidade de números ímpares:", impar)
+print("Média geral dos números lidos:", media_geral)
 
 #EX06
 FOR C  IN RANGE (100,201,1):
