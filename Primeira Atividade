@@ -1,42 +1,41 @@
 # ex01
 for c in range (1,501,2):
-if c %3==0
-soma = soma + c
-print ('A SOMA DOS  IMPARES: {}´.FORMAT(SOMA))
+    if c %3==0
+    soma =    soma + c
+    print ('A SOMA DOS  IMPARES: {}´.FORMAT(SOMA))
 
 
 #EX02 
 VALORES = LIST ()
 QUANT = 0
-MAIOR = MENOR = 0
 FOR CONT IN RANGE (0,16):
 VALORES.APPEND(INT(INPUT('DIGITE UMA ALTURA:  ')
-IF QUANT == 1:
-MAIOR = MENOR = NUM
-ELSE:
-IF NUM > MAIOR:
-MAIOR = NUM
-IF NUM < MENOR:
-MENOR = NUM
-PRINT ('O MAIOR {} E O MENOR {}'. FORMAT(MAIOR,MENOR))
+    IF QUANT == 1:
+        MAIOR = MENOR = NUM
+    ELSE:
+        IF NUM > MAIOR:
+    MAIOR = NUM
+        IF NUM < MENOR: 
+    MENOR = NUM
+    PRINT ('O MAIOR {} E O MENOR {}'. FORMAT(MAIOR,MENOR))
 
 #
 EXS3
 QUANTIDADE = 0
 SOMA = 0
 VALORES []
-WHILE TRUE:
-VALORES.APPEND (INT ('DIGITE UM NUMERO: '))
-RESP = STR (INPUT ('QUER CONTINUAE? (S/N)'))
-IF RESP IN 'NN':
-BREAK
-QUANTIDADE =  QUANTIDADE + 1
-SOMA = SOMA + VALORES
-MÉDIA = SOMA / QUANTIDADE
+    WHILE TRUE:
+    VALORES.APPEND (INT ('DIGITE UM NUMERO: '))
+    RESP = STR (INPUT ('QUER CONTINUAE? (S/N)'))
+        IF RESP IN 'NN':
+    BREAK
+    QUANTIDADE =  QUANTIDADE + 1
+    SOMA = SOMA + VALORES
+    MÉDIA = SOMA / QUANTIDADE
 PRINT (' A MEDIA É : {}. FORMAT (MÉDIA))
-IF VALORES < 0
+    IF VALORES < 0
 PRINT  ('DIGITE OS VALORES POSITIVOS:  ')
-ELSE VALORES > 0
+    ELSE VALORES > 0
 PRINT ('DIGITE OS VALORES NEGATIVOS: ')
 
 #EX04
@@ -89,19 +88,29 @@ FOR C  IN RANGE (100,201,1):
 PRINT ('OS NÚMEROS SOLICITADOS SAO: ')
 
 #EX07 
-N = 0
+n = int(input("Digite um número de 1 a 10: "))
+while n < 1 or n > 10:
+    n = int(input("Digite um número de 1 a 10: "))
+print("Tabuada do {}: “. format (n))
+for i in range(11):
+    print(f"{i} x {n} = {i * n}")
 
- 1 <= N <=10
 
 #EX08
 PRI = INT (INPUT ('EXCREVE UM NÚMERO: ))
 RAZ = IN (INPU ('RAZÃO: '))
-DEC = PRI + (10 - 1) *  RAZ
-FOR C IN RANGE (PRI, DEZ,RAZ):
-PRINT ('{}'.FORMAT(C),END=' - ')
-PRINT('C')
+    DEC = PRI + (10 - 1) *  RAZ
+    FOR C IN RANGE (PRI, DEZ,RAZ):  
+    PRINT ('{}'.FORMAT(C),END=' - ')
+    PRINT('C')
 
 #EX09
+A = float(input("Digite o valor inicial: "))
+R = float(input("Digite a razão: "))
+print("Sequência em P.G.:")
+for i in range(10):
+    valor = A * R ** i
+    print(valor)
 
 
 #EX10
@@ -109,10 +118,10 @@ N=INT(INPUT('DIGITE UM NÚMERO: '))
 C = N
 F = 1
 PRINT ('CALCULE {} = '.FORMAT(N), END='')
-WHILE C >0:
+    WHILE C >0:          
 PRINT ('{}'.FORMAT(C), END=' ')
-F*=|C
-C -= 1
+    F*=|C
+    C -= 1
 PRINT ('O FATORIAL DE {} É {}.'.FORMAT(N,F)) 
 
 
