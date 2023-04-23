@@ -1,0 +1,15 @@
+#EXC01
+a = float(input("Digite o valor de A: "))
+b = float(input("Digite o valor de B: "))
+x = a + b
+print("A soma de", a, "e", b, "é igual a", x)
+
+#EX02
+pi =3.14159
+raio = 0
+float(input("Digite o valor do raio: "))
+area = pi * raio ** 
+area = pi * raio
+area = pi * ra
+print("A área da circunferência é", area)
+
