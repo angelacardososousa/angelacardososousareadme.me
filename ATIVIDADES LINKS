@@ -62,6 +62,17 @@ diferenca = a * b - c * d
 print("A diferença entre os produtos é:", diferenca)
 
 #ex08
+numero_funcionario = 0
+int(input("Digite o número do funcionário: "))
+horas_trabalhadas = 0
+int(input("Digite o número de horas trabalhadas: "))
+valor_hora = 0
+float(input("Digite o valor que recebe por hora: "))
+salario = horas_trabalhadas * valor_hora
+salario = horas_trabal
+print("O funcionário", numero_funcionario, "receberá um salário de R$", format(salario, '.2f'))
+
+#EX09
 
 
 
