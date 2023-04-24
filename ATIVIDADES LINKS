@@ -200,6 +200,24 @@ else:
 # Exibir o novo salário
 
 #EX22
+#Usando um loop for para iterar de 1 a 100
+for i in range(1, 101):
+ # Verificando se o número é par usando o operador % (resto da divisão)
+ if i % 2 == 0:
+# Exibindo o número par encontrado
+ print(i)
+ 
+#EX23
+# Lendo o valor de x
+x = 0
+int(input("Digite um valor inteiro entre 1 e 1000: "))
+# Usando um loop for para iterar de 1 a x
+for i in range(1, x+1):
+ # Verificando se o número é ímpar usando o operador % (resto da divisão)
+if i % 2 == 1:
+ # Exibindo o número ímpar encontrado
+        print(i)
+
 
 
 
