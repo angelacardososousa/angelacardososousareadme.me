@@ -175,9 +175,35 @@ if media >= 7.0:
 else:   
 print(f"Média: {media:.2f}. Reprovado.")
 
-#EX19
+#EX20
+# Ler os números A e B
+a, b = map(int, input("Digite dois números (separados por espaço): ").split())
+# Verificar se são múltiplos
+if a % b == 0 or b % a == 0:
+    print(f"{a} e {b} são múltiplos.")
+else:
+    print(f"{a} e {b} não são múltiplos.")
+    
+#EX21
+# Ler o salário atual do funcionário
+salario_atual = float(input("Digite o salário atual do funcionário: "))
+# Calcular o novo salário com base na faixa salarial
+if salario_atual <= 1200:
+    novo_salario = salario_atual * novo_salario 
+1.15  # aumento de 15%
+elif salario_atual <= 2000:
+    novo_salario = salario_atual * novo_salario
+1.07  # aumento de 7%
+else:
+    novo_salario = salario_atual *    novo_salario
+1.04  # aumento de 4%
+# Exibir o novo salário
+
+#EX22
 
 
+
+    
 
 
 
