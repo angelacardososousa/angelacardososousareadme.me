@@ -145,6 +145,37 @@ map(float, input("Digite as coordenadas do ponto P2 (x2 y2): ").split())
 distancia = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 print(f"A distância entre os pontos P1({x1}, {y1}) e P2({x2}, {y2}) é {distancia:.4f}")
 
+#EX16
+# Ler o código e a quantidade de produtos
+codigo, quantidade = 0
+map(int, input("Digite o código e a quantidade de produtos: ").split())
+# Verificar o código do produto e calcular o valor a pagar
+if codigo == 1:
+    valor_pagar = quantidade * valor_4.00
+elif codigo == 2:
+    valor_pagar = quantidade * valor_2.00
+else:    
+print("Código inválido!")
+    valor_pagar = 0
+
+# Mostrar o resultado na tela
+if valor_pagar > 0:
+    print(f"O valor a pagar é de R${valor_pagar:.2f}")
+
+#EX17
+# Ler as notas com pesos
+nota1, nota2, nota3, nota4 =0 
+map(float, input("Digite as notas (separadas por espaço): ").split())
+# Calcular a média ponderada
+media = ((nota1 * 2) + (nota2 * 3) + (nota3 * 4) + (nota4 * 
+1)) / 10
+# Verificar se o aluno foi aprovado ou reprovado
+if media >= 7.0:
+    print(f"Média: {media:.2f}. Aprovado!")
+else:   
+print(f"Média: {media:.2f}. Reprovado.")
+
+#EX19
 
 
 
