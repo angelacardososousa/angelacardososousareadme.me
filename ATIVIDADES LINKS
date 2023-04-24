@@ -136,6 +136,14 @@ combustivel = float(input("Digite o total de combustível gasto (em litros): "))
 consumo_medio = distancia / combustivel
 print(f"O consumo médio do automóvel foi de {consumo_medio:.2f} km/l")
 
+#EX15
+Ler as coordenadas dos pontos P1 e P2
+x1, y1 = 0
+map(float, input("Digite as coordenadas do ponto P1 (x1 y1): ").split())
+x2, y2 = 0
+map(float, input("Digite as coordenadas do ponto P2 (x2 y2): ").split())
+distancia = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+print(f"A distância entre os pontos P1({x1}, {y1}) e P2({x2}, {y2}) é {distancia:.4f}")
 
 
 
