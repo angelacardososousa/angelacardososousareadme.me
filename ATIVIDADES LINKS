@@ -73,6 +73,26 @@ salario = horas_trabal
 print("O funcionário", numero_funcionario, "receberá um salário de R$", format(salario, '.2f'))
 
 #EX09
+nome_vendedor = 0
+input("Digite o nome do vendedor: ")
+salario_fixo = 0
+float(input("Digite o salário fixo do vendedor: "))
+total_vendas = 0
+float(input("Digite o total de vendas do mês: "))
+comissao = com 0.15 * total_vendas
+salario_total = salario_fixo + comissao 
+print("O vendedor", nome_vendedor, "receberá um salário total de R$", format(salario_total, '.2f'))
+
+#EX10
+codigo_peca_1 = int(input("Digite o código da peça 1: "))
+num_peca_1 = int(input("Digite o número de peças da peça 1: "))
+valor_unitario_1 = float(input("Digite o valor unitário da peça 1: "))
+codigo_peca_2 = int(input("Digite o código da peça 2: "))
+num_peca_2 = int(input("Digite o número de peças da peça 2: "))
+valor_unitario_2 = float(input("Digite o valor unitário da peça 2: "))
+valor_total = (num_peca_1 * valor_unitario_1) + (num_peca_2 * valor_unitario_2)
+print(f"Valor total do pagamento: R$ {valor_total:.2f}")
+
 
 
 
