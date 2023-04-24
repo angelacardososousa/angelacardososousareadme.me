@@ -94,6 +94,17 @@ valor_total = (num_peca_1 * valor_unitario_1) + (num_peca_2 * valor_unitario_2)
 print(f"Valor total do pagamento: R$ {valor_total:.2f}")
 
 
+#EX11
+IMPORT MATH
+RAIO=0
+VOLUME =0
+PI=3.14159
+raio = float(input("Digite o valor do raio da esfera: "))
+volume = (4/3) * pi * math.pow(raio, 3)
+print(f"O volume da esfera é: {volume:.2f}")
+
+#EX12
+
 
 
 
