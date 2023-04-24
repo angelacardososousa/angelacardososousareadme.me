@@ -39,6 +39,31 @@ media = ((nota_a *
 media = ((nota a * 3.5) + (nota_b * 7.5)) / 11.0
 print("A média do aluno é:", round(media, 1))
 
+#EX06
+nota_a = 0
+float(input("Digite a nota A: "))
+nota_b = 0
+float(input("Digite a nota B: "))
+nota_c = 0
+float(input("Digite a nota C: "))
+media = (nota_a * 2 + nota_b * 3 + nota_c * 5) / 10.0
+print("A média do aluno é:", round(media, 1))
+
+#EX07
+a = 0
+int(input("Digite o valor de A: "))
+b = 0
+int(input("Digite o valor de B: "))
+c = 0
+int(input("Digite o valor de C: "))
+d = 0
+int(input("Digite o valor de D: "))
+diferenca = a * b - c * d
+print("A diferença entre os produtos é:", diferenca)
+
+#ex08
+
+
 
 
 
