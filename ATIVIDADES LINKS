@@ -104,6 +104,38 @@ volume = (4/3) * pi * math.pow(raio, 3)
 print(f"O volume da esfera é: {volume:.2f}")
 
 #EX12
+import math
+a = float(input("Digite o valor de A: "))
+b = float(input("Digite o valor de B: "))
+c = float(input("Digite o valor de C: "))
+area_triangulo = (a * c) / 2
+area_circulo = math.pi * math.pow(c, 2)
+area_trapezio = ((a + b) * c) / 2
+area_quadrado = math.pow(b, 2)
+area_retangulo = a * b
+print(f"Área do triângulo: {area_triangulo:.2f}")
+print(f"Área do círculo: {area_circulo:.2f}")
+print(f"Área do trapézio: {area_trapezio:.2f}")
+print(f"Área do quadrado: {area_quadrado:.2f}")
+print(f"Área do retângulo: {area_retangulo:.2f}")
+
+#EX13
+a = float(input("Digite o valor de A: "))
+b = float(input("Digite o valor de B: "))
+c = float(input("Digite o valor de C: "))
+maior = a
+if b > maior:
+    maior = b
+if c > maior:
+    maior = c
+print(f"O maior valor é: {maior}")
+
+#EX14
+distancia = float(input("Digite a distância total percorrida (em km): "))
+combustivel = float(input("Digite o total de combustível gasto (em litros): "))
+consumo_medio = distancia / combustivel
+print(f"O consumo médio do automóvel foi de {consumo_medio:.2f} km/l")
+
 
 
 
