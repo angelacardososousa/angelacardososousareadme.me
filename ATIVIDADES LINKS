@@ -13,3 +13,35 @@ area = pi * raio
 area = pi * ra
 print("A área da circunferência é", area)
 
+#EX03
+a = 0
+int(input("Digite o valor de A: "))
+b = 0
+int(input("Digite o valor de B: "))
+soma = a + b
+print("A soma de", a, "e", b, "é igual a", soma)
+
+#EX04
+valor1 = 0
+float(input("Digite o primeiro valor: "))
+valor2 = 0
+float(input("Digite o segundo valor: "))
+prod = valor1 * valor2
+print("O produto de", valor1, "e", valor2, "é igual a", prod)
+
+#EX05
+nota_a = 0 
+float(input("Digite a nota A: "))
+nota_b = 0
+float(input("Digite a nota B: "))
+media = ((nota_a * b )/2 
+media = ((nota_a * 
+media = ((nota a * 3.5) + (nota_b * 7.5)) / 11.0
+print("A média do aluno é:", round(media, 1))
+
+
+
+
+
+
+
