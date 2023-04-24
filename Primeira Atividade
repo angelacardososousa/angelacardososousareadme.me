@@ -124,5 +124,5 @@ PRINT ('{}'.FORMAT(C), END=' ')
     C -= 1
 PRINT ('O FATORIAL DE {} É {}.'.FORMAT(N,F)) 
 
-
+FIM
 
